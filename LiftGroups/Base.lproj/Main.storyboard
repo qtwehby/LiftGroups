@@ -1641,7 +1641,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Au-Gt-JMn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1378.2608695652175" y="1813.3928571428571"/>
+            <point key="canvasLocation" x="1319" y="1980"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="d6s-BJ-t8I">
@@ -2216,6 +2216,21 @@
             </objects>
             <point key="canvasLocation" x="314" y="771"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="o9e-ak-hjz">
+            <objects>
+                <viewController id="wMM-dD-jYs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vzA-TW-mdY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="h5f-Mb-blN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5G6-4j-yEl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1319" y="1256"/>
+        </scene>
         <!--Leaderboard-->
         <scene sceneID="z0Q-mI-sTG">
             <objects>
@@ -2721,7 +2736,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Uet-3Q-8GY"/>
+        <segue reference="S2U-RA-oxi"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="blankProfilePic.png" width="656" height="656"/>

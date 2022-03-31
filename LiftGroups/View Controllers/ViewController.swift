@@ -6,6 +6,7 @@
 //
 
 //This is to test commiting from terminal
+// testing terminal commit to second branch
 
 import UIKit
 import AVKit
