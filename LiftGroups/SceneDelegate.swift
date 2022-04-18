@@ -4,13 +4,14 @@
 //
 //  Created by Wehby, Quinton on 3/3/22.
 //
-
+import SwiftUI
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
     let defaults = UserDefaults.standard
+    @StateObject var viewRouter = ViewRouter()
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -18,11 +19,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         
         if defaults.bool(forKey: "stayLoggedInBool") {
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let initialViewController = storyboard.instantiateViewController(withIdentifier: Constants.Storyboard.homeViewController)
-            let navigationController = UINavigationController(rootViewController: initialViewController)
+            //let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            //let initialViewController = storyboard.instantiateViewController(withIdentifier: Constants.Storyboard.homeViewController)
+            //let navigationController = UINavigationController(rootViewController: initialViewController)
+            
+            let vc = UIHostingController(rootView: ContentView(viewRouter: self.viewRouter))
         
-            self.window?.rootViewController = navigationController
+            self.window?.rootViewController = vc
         }
         
         guard let _ = (scene as? UIWindowScene) else { return }

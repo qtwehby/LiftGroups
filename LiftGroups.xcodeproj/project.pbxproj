@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31089483280DB263008EC8D7 /* ViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31089480280DB263008EC8D7 /* ViewB.swift */; };
+		31089484280DB263008EC8D7 /* ViewD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31089481280DB263008EC8D7 /* ViewD.swift */; };
+		31089485280DB263008EC8D7 /* ViewA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31089482280DB263008EC8D7 /* ViewA.swift */; };
+		31089488280DB278008EC8D7 /* CustomTabBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31089486280DB278008EC8D7 /* CustomTabBarApp.swift */; };
+		31089489280DB278008EC8D7 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31089487280DB278008EC8D7 /* ViewRouter.swift */; };
+		3108948B280DB28A008EC8D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108948A280DB28A008EC8D7 /* ContentView.swift */; };
+		3108948D280DB2A4008EC8D7 /* ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108948C280DB2A4008EC8D7 /* ViewC.swift */; };
 		310ED1AB27DA5DAB007C32BB /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 310ED1A927DA5DAB007C32BB /* preview.png */; };
 		310ED1AC27DA5DAB007C32BB /* preview-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 310ED1AA27DA5DAB007C32BB /* preview-1.png */; };
 		310ED1AE27E21F3C007C32BB /* AddWorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310ED1AD27E21F3B007C32BB /* AddWorkoutViewController.swift */; };
@@ -38,6 +45,13 @@
 /* Begin PBXFileReference section */
 		14D30400E6E45A9EB2F8C563 /* Pods_LiftGroups.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiftGroups.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB83DB25A29D2A6DDEA2BAE /* Pods-LiftGroups.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftGroups.debug.xcconfig"; path = "Target Support Files/Pods-LiftGroups/Pods-LiftGroups.debug.xcconfig"; sourceTree = "<group>"; };
+		31089480280DB263008EC8D7 /* ViewB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewB.swift; sourceTree = "<group>"; };
+		31089481280DB263008EC8D7 /* ViewD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewD.swift; sourceTree = "<group>"; };
+		31089482280DB263008EC8D7 /* ViewA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewA.swift; sourceTree = "<group>"; };
+		31089486280DB278008EC8D7 /* CustomTabBarApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarApp.swift; sourceTree = "<group>"; };
+		31089487280DB278008EC8D7 /* ViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		3108948A280DB28A008EC8D7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3108948C280DB2A4008EC8D7 /* ViewC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewC.swift; sourceTree = "<group>"; };
 		310ED1A927DA5DAB007C32BB /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = "<group>"; };
 		310ED1AA27DA5DAB007C32BB /* preview-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "preview-1.png"; sourceTree = "<group>"; };
 		310ED1AD27E21F3B007C32BB /* AddWorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +94,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3108947F280DB263008EC8D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31089480280DB263008EC8D7 /* ViewB.swift */,
+				3108948C280DB2A4008EC8D7 /* ViewC.swift */,
+				31089481280DB263008EC8D7 /* ViewD.swift */,
+				31089482280DB263008EC8D7 /* ViewA.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		31AF473F27D11B3200E53508 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +126,7 @@
 		31AF474A27D11B3200E53508 /* LiftGroups */ = {
 			isa = PBXGroup;
 			children = (
+				3108947F280DB263008EC8D7 /* Views */,
 				31AF476D27D1506B00E53508 /* Media */,
 				31AF476627D11EB800E53508 /* Helpers */,
 				31AF474B27D11B3200E53508 /* AppDelegate.swift */,
@@ -125,6 +151,9 @@
 				310ED1AD27E21F3B007C32BB /* AddWorkoutViewController.swift */,
 				310ED1AF27E9FACA007C32BB /* MaxesViewController.swift */,
 				310ED1B127E9FADA007C32BB /* LeaderboardViewController.swift */,
+				3108948A280DB28A008EC8D7 /* ContentView.swift */,
+				31089486280DB278008EC8D7 /* CustomTabBarApp.swift */,
+				31089487280DB278008EC8D7 /* ViewRouter.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -300,13 +329,20 @@
 			files = (
 				31AF476127D11B7300E53508 /* LoginViewController.swift in Sources */,
 				310ED1B027E9FACA007C32BB /* MaxesViewController.swift in Sources */,
+				31089484280DB263008EC8D7 /* ViewD.swift in Sources */,
 				31AF475027D11B3200E53508 /* ViewController.swift in Sources */,
+				3108948D280DB2A4008EC8D7 /* ViewC.swift in Sources */,
 				310ED1AE27E21F3C007C32BB /* AddWorkoutViewController.swift in Sources */,
 				31AF474C27D11B3200E53508 /* AppDelegate.swift in Sources */,
 				31AF474E27D11B3200E53508 /* SceneDelegate.swift in Sources */,
+				3108948B280DB28A008EC8D7 /* ContentView.swift in Sources */,
+				31089488280DB278008EC8D7 /* CustomTabBarApp.swift in Sources */,
 				31AF476927D11EB800E53508 /* Constants.swift in Sources */,
 				31AF476327D11B8100E53508 /* SignUpViewController.swift in Sources */,
+				31089485280DB263008EC8D7 /* ViewA.swift in Sources */,
 				310ED1B227E9FADA007C32BB /* LeaderboardViewController.swift in Sources */,
+				31089489280DB278008EC8D7 /* ViewRouter.swift in Sources */,
+				31089483280DB263008EC8D7 /* ViewB.swift in Sources */,
 				31AF476A27D11EB800E53508 /* Utilities.swift in Sources */,
 				31AF476527D11B8D00E53508 /* HomeViewController.swift in Sources */,
 			);
